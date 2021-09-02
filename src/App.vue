@@ -4,8 +4,8 @@
   </div>
   <div id="nav">
     <router-link :to="{ name: 'EventList' }">Home</router-link> |
-    <router-link :to="{ name: 'About' }">About</router-link>
-    <router-link :to="{ name: 'AddEvent' }"></router-link>
+    <router-link :to="{ name: 'About' }">About</router-link>  |
+    <router-link :to="{ name: 'AddEvent' }">AddEvent</router-link>
   </div>
 
   <!-- new element -->
