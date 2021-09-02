@@ -6,6 +6,7 @@ import EventRegister from '@/views/event/Register.vue'
 import EventEdit from '@/views/event/Edit.vue'
 import EventLayout from '@/views/event/Layout.vue'
 import NotFound from '@/views/NotFound.vue'
+import AddEvent from '@/views/EventForm.vue'
 import NetWorkError from '@/views/NetworkError.vue'
 import NProgress from 'nprogress'
 import EventService from '@/services/EventService.js'
@@ -80,6 +81,11 @@ const routes = [
     path: '/network-error',
     name: 'NetworkError',
     component: NetWorkError
+  },
+  {
+    path: '/add-event',
+    name: 'AddEvent',
+    component: AddEvent
   }
 ]
 
