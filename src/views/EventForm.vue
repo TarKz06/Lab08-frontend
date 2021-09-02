@@ -63,9 +63,11 @@ export default {
                         name: 'EventLayout',
                         params:{ id: response.data.id}
                     })
-                }).catch((err) => {
+                    
+                })
+                .catch(() => {
                     this.$router.push('NetworkError')
-                });
+            });
         }
     }
 }
